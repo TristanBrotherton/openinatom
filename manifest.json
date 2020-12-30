@@ -10,6 +10,12 @@
    },
    "manifest_version": 2,
    "name": "Atom",
-   "permissions": [ "http://*/", "https://*/" ],
+   "permissions": [ "http://*/", "https://*/", "storage" ],
+   "options_page": "options.html",
+   "options_ui": {
+    "page": "options.html",
+    "chrome_style": true,
+    "open_in_tab": false
+    },
    "version": "1"
 }

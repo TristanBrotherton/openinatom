@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>Open in Atom Options</title></head>
+<body>
+
+<label>Full Path URL:</label>
+<input id="pathUrl" type="text" placeholder="/Users/YourName/Documents/ProjectFolder/" value=""/>
+<div class="help-block">
+  The full path to your project folder. This is required due to a bug in Atom
+  not recognising releative paths.
+</div>
+
+<hr/>
+
+<label>
+  <input type="checkbox" id="autoClose">
+  Automatically close tab after opening atom.
+</label>
+
+<div class="help-block">
+  Useful to disable this option if you are having issues with the permission
+  popup.
+</div>
+
+<hr/>
+
+<div id="status"></div>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>
